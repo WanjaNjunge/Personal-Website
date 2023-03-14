@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wanja Crochets</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
 </head>
 <body>
     <main>
@@ -67,19 +68,19 @@
                 <div>
                     <div id="project1" class="projects">
                         <img src="images/pop-projects/annisa-ica-HnyMBlDdQWc-unsplash.jpg" class="img-thumbnail" alt="project image1" width="450" height="450">
-                        <div class="popular"><p>Granny Cardigan</p></div>
+                        <div id="popular1" class="popular"><p>Cute Beanie</p></div>
                     </div>
                 </div>
                 <div>
-                    <div id="project22" class="projects">
+                    <div id="project2" class="projects">
                         <img src="images/pop-projects/annisa-ica-IB6q3nWCRYA-unsplash.jpg" class="img-thumbnail" alt="project image2" width="450" height="450">
-                        <div class="popular"><p>Baby Boots</p></div>
+                        <div id="popular2" class="popular"><p>Baby Boots</p></div>
                     </div>
                 </div>
                 <div>
                     <div id="project3" class="projects">
                         <img src="images/pop-projects/kateryna-hliznitsova-tRknQ2W_0zQ-unsplash.jpg" class="img-thumbnail" alt="project image3" width="450" height="450">
-                        <div class="popular"><p>Granny Cardigan</p></div>
+                        <div id="popular3" class="popular"><p>Granny Cardigan</p></div>
                     </div>
                 </div>
             </div>
@@ -87,7 +88,7 @@
 
          <div class="contacts">
             <h>DON'T MISS A PATTERN!</h><br><br>
-            <form>
+            <form onsubmit="return myFunction()">
                 <div class="userForm">
                     <input id="name" class="details" type="text" placeholder="FIRST NAME" required>
                     <input id="email" class="details" type="email" placeholder="EMAIL ADDRESS" required>
@@ -96,7 +97,7 @@
                     <input id="message" class="details" type="text" placeholder="Your message here..." required>
                 </div>
                 <div id="bttn1">
-                    <button type="submit">Submit</button>
+                    <button type="submit" onclick="myFunction()>Submit</button>
                 </div>
             </form>
          </div>

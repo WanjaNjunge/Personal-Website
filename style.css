@@ -41,8 +41,18 @@
   
 }
 
+.knitting {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.tutorials {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
 #knitDetails, #tutorialDetails {
-    padding-left: 5%;
+    display: none;
 }
 
 
@@ -60,22 +70,21 @@
     border: 5px;
     margin: 5px;
     text-align: center;
-    color: maroon;
+    color: black;
     font-size: x-large;
+    font-weight: bold;
 }
 
 .popular {
     position: absolute;
     display: none;
-    width: 150px;
-    height: 150px;
+    width: 380px;
+    height: 380px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     border: 5px solid maroon;
 }
-
-
 
 
 .contacts {
@@ -107,10 +116,7 @@
     margin: 10px;
 }
 
-#bbtn1 {
-    padding-top: 5%;
-    height: 30px;
-}
+
 
 .socials {
     display: flex;
