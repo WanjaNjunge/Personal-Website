@@ -1,3 +1,120 @@
-body {
-    background: burlywood;
+.container{
+    text-align: center;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.logo {
+  background-image: url(images/cover/giulia-bertelli-x82zwKtrXjE-unsplash.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.logo h1 {
+    font-size: 40px;
+    font-family: cursive;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+  
+.logo p {
+    font-size: 25px; 
+    margin-bottom: 10px;
+}
+
+.about {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.row {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  
+}
+
+#knitDetails, #tutorialDetails {
+    padding-left: 5%;
+}
+
+
+
+
+.popular-projects {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+
+.projects {
+    position: relative;
+    padding: 5px;
+    border: 5px;
+    margin: 5px;
+    text-align: center;
+    color: maroon;
+    font-size: x-large;
+}
+
+.popular {
+    position: absolute;
+    display: none;
+    width: 150px;
+    height: 150px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid maroon;
+}
+
+
+
+
+.contacts {
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    align-items: center;
+}
+
+
+#message {
+    background-color: transparent;
+    height: 100px;
+    width: 50%;
+    border: 1px solid black;
+
+}
+#email {
+    width: 10%;
+    border: 3px solid black;
+    background-color: transparent;
+}
+#name {
+    width: 10%;
+    border: 3px solid black;
+    background-color: transparent;
+    margin: 10px;
+}
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+::placeholder {
+    color: black;
+    opacity: 2;
 }
