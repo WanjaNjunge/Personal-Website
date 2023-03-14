@@ -4,12 +4,113 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Wanja's Website</title>
+    <title>Wanja Crochets</title>
+    <link rel="stylesheet" href="">
+    <script src="script.js"></script>
 </head>
 <body>
-    <h1>Hello, World!</h1>
-    <script src="script.js"></script>
+    <main>
+        <div class="container">
+            <div class="logo">
+                <img src="images/giulia-bertelli-x82zwKtrXjE-unsplash.jpg" alt="Yarn and Coffee">
     
+                <h1>Hello!</h1><br>
+                <h1>Welcome to <strong>Wanja Crotchets</strong></h1>
+                <p>See my collection of free knit and crochet patterns and get inspired for your next project! </p><br>
+            </div>
+        </div>
+    
+        <div class="about-us">
+            <h2>ABOUT</h2>
+            <p>Hey! I am Wanja, I like sharing my easy & timeless knit and crochet projects and patterns.  You'll also find some random thoughts and a bit of nature - Come on in!</p>
+            <p>My Mission: <i>"To collaborate, learn, chat and crochet along together!"</i></p>
+            <p>My Vision: <i>"Creating a More Colorful, Connected, Comforting & Caring World!"</i></p>
+            <h4>Here to make your crocheting journey nothing short of amazing!!</h4>
+        </div>
+    
+        <div class="what-we-do">
+            <h>WHAT YOU WILL FIND</h>
+            <p></p>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="Designicon">
+                        <img src="images/paula-heckathorn-hU74ThCaP4w-unsplash.jpg" alt="Knitting"><br>
+                        <label>Knitting</label>
+                    </div>   
+                    <div id="knitDetails">
+                        <h3>Free Knitting Patterns</h3>
+                        <p>Inspiring, approachable free crochet patterns.</p>
+                        <p>Tried and true patterns modern makers can't get enough of these.Start now! </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="Developmenticon">
+                        <img src="images/karina-l-BjGpLKlDKJA-unsplash.jpg" alt="Yarn"><br>
+                        <label>Learning</label>
+                    </div>
+                    <div id="developmentDetails">
+                        <h>Tutorials and Videos</h>
+                        <p>Well illustrated and short tutorials for the times when you need some (almost) instant gratification–or a last minute gift.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!--popular projects-->
+    
+        <div class="portfolio">
+            <h>PORTFOLIO</h>
+            <div class="row align-items-center">
+                <div class="col-md-3">
+                    <div id="work1" class="port">
+                        <img src="images/pop-projects/annisa-ica-HnyMBlDdQWc-unsplash.jpg" class="img-thumbnail" alt="work image1" width="250" height="250">
+                        <div class="workCo" id="workco1"><p>Stiles Co.</p></div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div id="work2" class="port">
+                        <img src="images/pop-projects/annisa-ica-IB6q3nWCRYA-unsplash.jpg" component={}/>" class="img-thumbnail" alt="work image2" width="250" height="250">
+                        <div class="workCo" id="workco2"><p>Shutter Co.</p></div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div id="work3" class="port">
+                        <img src="images/pop-projects/kateryna-hliznitsova-tRknQ2W_0zQ-unsplash.jpg" class="img-thumbnail" alt="work image3" width="250" height="250">
+                        <div class="workCo" id="workco3"><p>Ontario Co.</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contacts">
+            <h>DON'T MISS A PATTERN!</h><br><br>
+            <form onsubmit="return myFunction()">
+                <div class="userForm">
+                    <input id="name" class="details" type="text" placeholder="Name..." required>
+                    <input id="email" class="details" type="email" placeholder="Email..." required>
+                </div>
+                <div class="userForm">
+                    <input id="message" class="details" type="text" placeholder="Your message here..." required>
+                </div>
+                <button id="bttn1" type="submit" onclick="myFunction()">Submit</button>
+            </form>
+        </div>
+
+        <div class="socials">
+            <div class="col1"><img src="images/social_icons/twitter.png" alt="twitter"></div>
+        </div>
+    </main>
+
+    <footer>
+        <div>
+            <p></p>
+            <p>COPYRIGHT© 2023</p>
+            <p>WANJA CROCHETS</p>
+        </div>
+    </footer>
+
+
+
 </body>
 </html>
